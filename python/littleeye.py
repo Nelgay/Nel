@@ -56,9 +56,9 @@ def littleeye():
 
 ############Body######################
 
-interface = "eth0"
-ip_victime = "10.94.73.40"
-ip_gw = "10.94.73.254"
+interface = raw_input("Interface ?")
+ip_victime = raw_input("Ip victime ?")
+ip_gw = raw_input("Gw ?")
 
 os.system("echo 1 > /proc/sys/net/ipv4/ip_forward")
 
